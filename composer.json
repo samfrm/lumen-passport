@@ -1,0 +1,34 @@
+{
+    "name": "samfrm/lumen-passport",
+    "type": "library",
+    "description": "Making Laravel Passport work with Lumen",
+    "keywords": ["php","lumen","laravel passport"],
+    "homepage": "https://github.com/samfrm/lumen-passport",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Farahmand",
+            "email": "hi@samfrmd.com",
+            "homepage": "https://samfrmd.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "illuminate/database": "^8.0|^9.5",
+        "illuminate/support": "^8.0|^9.5",
+        "laravel/passport": ">=10.1"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.19",
+        "phpunit/phpunit": "^9.3",
+        "codeclimate/php-test-reporter": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Samfrm\\LumenPassport\\": "src/"
+        },
+         "files": [
+            "src/helpers.php"
+        ]
+    }
+}
